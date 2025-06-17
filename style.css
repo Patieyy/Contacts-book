@@ -1,0 +1,270 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    font-weight: normal;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#table {
+    margin-top: 20px;
+}
+
+/* ========== BASE RESET ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* ========== PAGE LAYOUT ========== */
+body {
+    padding: 40px 20px;
+    max-width: 500px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* ========== HEADINGS ========== */
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+/* ========== FORM STYLES ========== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fdfdfd;
+}
+
+/* ========== BUTTONS ========== */
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* ========== NAVIGATION BUTTON ========== */
+#homeLink {
+    margin-top: 20px;
+    background-color: #28a745;
+}
+
+#homeLink:hover {
+    background-color: #1e7e34;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 600px) {
+    body {
+        padding: 20px 10px;
+    }
+}
+
+/* ========== BASE RESET ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* ========== BASE RESET ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* ========== PAGE CONTAINER ========== */
+body {
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ========== HEADINGS ========== */
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+/* ========== AVATAR PREVIEW ========== */
+#avatarPreview {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#avatarPreview img {
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    width: 200px;
+}
+
+/* ========== FORM ========== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fdfdfd;
+}
+
+/* ========== BUTTONS ========== */
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* ========== INDIVIDUAL BUTTON COLORS ========== */
+#homeLink {
+    background-color: #6c787d;
+    color: white;
+}
+
+#homeLink:hover {
+    background-color: #5a6268;
+}
+
+#editContact {
+    background-color: #07ffff;
+    color: #212529;
+}
+
+#editContact:hover {
+    background-color: #00b3e0;
+}
+
+#deleteContact {
+    background-color: #35addc;
+    color: white;
+}
+
+#deleteContact:hover {
+    background-color: #23afc8;
+}
+
+#submitForm {
+    background-color: #007bff;
+    color: white;
+}
+
+#submitForm:hover {
+    background-color: #0056b3;
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+@media (max-width: 600px) {
+    body {
+        padding: 20px 10px;
+    }
+
+    #avatarPreview img {
+        width: 100%;
+    }
+}
